@@ -9,7 +9,7 @@ class ChattyStudent < Student
     super
     counter = 0
     until counter = 9
-      puts "Pick me!"
+      super
       counter += 1
     end
   end
