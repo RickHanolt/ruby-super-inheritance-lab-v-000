@@ -1,4 +1,4 @@
-class ChattyStudent
+class ChattyStudent < Student
 
   def hello
     super
@@ -6,10 +6,9 @@ class ChattyStudent
   end
 
   def raise_hand
-    super
     count = 0
-    until count = 9
-      puts "Pick me!"
+    until count = 10
+      super
       count += 1
     end
   end
