@@ -6,6 +6,7 @@ class ChattyStudent
   end
 
   def raise_hand
+    super
     count = 0
     until count = 10
       super
